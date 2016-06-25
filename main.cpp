@@ -676,22 +676,7 @@ void processVideo(char* videoFilename) {
     //delete capture object
     capture.release();
 }
-// 640 x 360
-/*
- some explanation:
- - I made a code for each border detection instead os a function for them all
- because they are sligtly different.
- 
- weak ponits:
- - backgrund subtraction is a method that depends a lot on lighting conditions
- so camera flashes, floodlight, wheather conditions etc... will introduce a
- a lot of errors on the final result
- - if two persons walk too close eachother can be an error counting too because
- all the contours are really one, if sombody can separate them and make them work
- independently he can make a code more efficent using heritage of mass points (for example),
- I don´t know if it is realy possible
-  
- */
+
 
 
 
